@@ -20,8 +20,8 @@ update-ca-certificates
 #Build and install TCP-BBR Plus
 mkdir bbrplus-debian
 cd bbrplus-debian
-wget https://raw.githubusercontent.com/Xaster/bbrplus-debian/master/Makefile
-wget https://raw.githubusercontent.com/Xaster/bbrplus-debian/master/tcp_bbr_plus.c
+wget https://raw.githubusercontent.com/aglent/bbrplus-debian/master/Makefile
+wget https://raw.githubusercontent.com/aglent/bbrplus-debian/master/tcp_bbr_plus.c
 make
 make install
 cd
